@@ -24,7 +24,7 @@ with open('Yeet.csv','a',newline='')as file:
             revpoint = 'GOOD'
             print("Thank You for your response.We really appreciate it.")
         else:
-            print("BOI USE THE BUTTONS YOU 1337 Hax0r ヽ(ｏ`皿′ｏ)ﾉ")
+            print("Invalid input")
         print('Please confirm that this is your final feedback :=> ',revpoint)
         writer.writerow({'rollno': rollno,'review': revpoint})
 
